@@ -131,7 +131,6 @@ function getStringsLength(arr) {
  *   getAverage([ 2, 3, 3 ])  => 2,67
  */
 function getAverage(arr) {
-  console.log(arr);
   if (arr.length === 0) {
     return 0;
   }
@@ -394,7 +393,6 @@ function generateOdds(len) {
  */
 function getElementByIndices(arr, indices) {
   const newArr = arr.flat(Infinity);
-  console.log(newArr);
   return newArr[indices[indices.length - 1]];
 }
 
